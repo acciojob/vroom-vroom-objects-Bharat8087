@@ -2,7 +2,7 @@
 function Car(make, model) {
 	this.make = make;
 	this.model = model;
-};
+}
 
 function SportsCar(make, model, topSpeed) {
 	Car.call(this, make, model);
